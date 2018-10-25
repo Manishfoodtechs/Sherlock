@@ -1,0 +1,346 @@
+body
+{
+background-color: gainsboro;
+font-size: 10px;
+font-color: #000;
+}
+#quiztitle
+{
+    width:auto;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #cccccc;
+    font-family: sans-serif;
+    margin-top:5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: gray;
+    box-shadow: 10px 10px 5px #888888;
+}
+#bar1
+{   background-color: gainsboro;
+    width: auto;
+    height: 56px;
+    text-align: center;
+    margin-top: 5px;
+    
+    
+}
+#countdown{
+    
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    display:inline;
+    text-align: center;
+    clear:both;
+}
+#header {
+background-color: #4d636f;
+height: 100px;
+width: auto;
+    margin:left: 10px;
+    
+    padding-left: 20px;
+    padding-top: 5px;
+    border-radius: 12px;
+}
+.logoimage
+{
+    width: 900px;
+    height: 90px;
+    margin-left: 60px;
+    margin-top: 2px;
+}
+
+
+#block1
+{
+height: 210px;
+width: auto;
+background-color: gainsboro;
+margin: auto;
+    margin-bottom: 0px;
+
+    font-size: 15px;
+    border-radius: 12px;
+    
+}
+.question
+{   height: auto;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: ghostwhite;
+    border: 1px solid #ccc;
+    color: black;
+    border: 1px solid #888888;
+    border-radius: 12px;
+    
+}
+
+.option
+{   margin-top: 5px;
+    height: 36px;
+    width: auto;
+    
+    font-family: sans-serif;
+    background-color: ghostwhite;
+    display: inherit;
+    color:black;
+   border-radius: 12px;
+    
+}
+.option:hover{
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 5px 5px 3px #888888;
+    transition: 0.4s;
+       transform: translateY(4px);
+}
+
+.next-btn
+
+{
+
+
+display: inline-block;
+
+
+background-color: dodgerblue;
+
+
+border: none;
+
+
+color: #fff;
+
+
+font-size: 15px;
+
+
+text-align: center;
+
+
+width: 150px;
+
+
+height: 50px;
+    float: right;
+    margin-top:2px;
+transition: all 0.5s;
+
+
+cursor: pointer;
+border-radius: 20px;
+
+}
+
+
+.next-btn span
+
+
+{
+
+font-family: sans-serif;
+cursor: pointer;
+
+
+position: relative;
+
+
+display: inline-block;
+
+
+transition: 0.5s;
+
+
+}
+
+.next-btn:hover
+{
+    background-color: darkturquoise;
+    
+}
+.next-btn span:after
+
+
+{
+
+
+content: '\00bb';
+
+
+position: absolute;
+
+
+opacity: 0;
+top: 0;
+
+
+right: -20px;
+
+
+transition: 0.5s;
+ 
+
+}
+
+
+.next-btn:hover span
+
+
+{
+
+padding-right: 25px;
+
+}
+
+
+.next-btn:hover span:after
+
+
+{ opacity: 1; right: 0; 
+
+}
+.next-btn:active{
+    background-color: ghostwhite;
+    transition: 0.3s;
+}
+.prev-btn
+
+{
+
+
+display: inline-block;
+
+
+background-color: dodgerblue;
+
+
+border: none;
+
+
+color: #fff;
+
+
+font-size: 15px;
+
+
+text-align: center;
+
+
+width: 150px;
+
+
+height: 50px;
+    float: left;
+    margin-top:2px;
+transition: all 0.5s;
+
+
+cursor: pointer;
+    
+border-radius: 20px;
+
+}
+
+.prev-btn span
+
+
+{
+
+font-family: sans-serif;
+cursor: pointer;
+
+
+position: relative;
+
+
+display: inline-block;
+
+
+transition: 0.5s;
+
+
+}
+
+.prev-btn:hover
+{
+    background-color: darkturquoise;
+}
+
+.prev-btn span:after
+
+
+{
+
+
+content: '\00ab';
+
+
+position: absolute;
+
+
+opacity: 0;
+top: 0;
+
+
+left: -20px;
+
+
+transition: 0.5s;
+
+
+}
+
+
+.prev-btn:hover span
+
+
+{
+
+padding-left: 25px;
+
+}
+
+
+.prev-btn:hover span:after
+
+
+{ opacity: 1; left: 0; 
+
+}
+.prev-btn:active{
+    background-color: ghostwhite;
+    transition: 0.3s;
+}
+.btn {
+    border: none;
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    margin-top: 18px;
+    font-family: sans-serif;
+}
+
+.submit {background-color: dodgerblue; width: 150px; border-radius: 20px; } 
+.submit:hover {background-color: #FF0000; width: 150px; transition: 0.4s; border-radius: 20px; }
+.submit:active
+{
+    background-color: whitesmoke;
+}
+
+.result
+{
+    height: 100px;
+    text-align: center;
+    font-size 75px;
+}
+
+.option input:checked .option
+{
+    background-color: black;
+    color: white;
+}
+
+

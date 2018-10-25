@@ -1,0 +1,153 @@
+body
+{
+    font-family: serif;
+    background-color: aliceblue;
+}
+.container
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    border: 5px solid color:#000000;
+}
+
+.title
+{
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:white;
+    
+}
+.question
+{
+    padding: 20px;
+    font-size: 15px;
+    background-color: pink;
+    
+    color: black;
+}
+.option
+{
+    width: 400px;
+    background-color: red;
+    display: inline-block;
+    color:black;
+    margin:auto;
+    
+}
+
+.next-btn
+
+{
+
+
+display: inline-block;
+
+
+background-color: #000000;
+
+
+border: none;
+
+
+color: #fff;
+
+
+font-size: 15px;
+
+
+text-align: center;
+
+
+width: 150px;
+
+
+height: 50px;
+    float: right;
+    margin-top:2px;
+transition: all 0.5s;
+
+
+cursor: pointer;
+
+
+}
+
+
+.next-btn span
+
+
+{
+
+
+cursor: pointer;
+
+
+position: relative;
+
+
+display: inline-block;
+
+
+transition: 0.5s;
+
+
+}
+
+
+.next-btn span:after
+
+
+{
+
+
+content: '\00bb';
+
+
+position: absolute;
+
+
+opacity: 0;
+top: 0;
+
+
+right: -20px;
+
+
+transition: 0.5s;
+
+
+}
+
+
+.next-btn:hover span
+
+
+{
+
+padding-right: 25px;
+
+}
+
+
+.next-btn:hover span:after
+
+
+{ opacity: 1; right: 0; 
+
+}
+
+.result
+{
+    height: 100px;
+    text-align: center;
+    font-size 75px;
+}
+
+.option input:checked .option
+{
+    background-color: black;
+    color: white;
+}
